@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #6c5ce7;
+}
+.logo img{
+    height: 70px;
+    width: auto;
+}
+
+.menu ul{
+    margin: 0;
+    float: right;
+    
+    
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    border-right:2px solid white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    
+}
+.menu ul li a:hover {
+    background-color: #9b59b6;
+}
+
+
+.menu ul ul li{
+    float: none;
+    border: none;
+   
+}
+
+.menu ul ul{
+    float: none;
+    margin: 0;
+    position: absolute;
+    top:100%;
+    left: 0;
+    background-color: #6c5ce7;
+    display: none;
+    width: 110px;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.headline{
+    background-color: #e17055;
+    color: white;
+}
+
+
+
+.banner{
+    background-image: url(images/banner.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    background-size: cover;
+}
+.banner h2, h5{
+        color: white;
+}
+
+.about-us{
+    background-color: #bdc3c7;
+    padding: 50px 0;
+}
+
+.service{
+    padding: 30px;
+}
+.service img{
+    max-width: 100%;
+}
+
+.notice ul li{
+    list-style: none;
+    background-color: silver;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: #ff7675;
+    
+}
+.footer p{
+    margin-bottom: 0;
+}
+.social{
+    text-align: right;
+}
+.social a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+}
+.social a:hover{
+    background-color: #74b9ff;
+    padding: 15px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
